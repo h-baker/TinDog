@@ -40,6 +40,7 @@ p {
 /* Navigation Bar */
 .navbar {
   padding-bottom: 4.5rem;
+  color: #fff;
 }
 
 .navbar-brand {
@@ -52,15 +53,20 @@ p {
   padding: 0 18px;
 }
 
+.navbar a, .navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
 .nav-link {
   font-size: 1.25rem;
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 900;
 }
 
-.navbar-toggler {
+.navbar-dark .navbar-toggler {
   border-width: thick;
   font-size: 25px;
+  border-color: rgba(255, 255, 255, 1);
 }
 
 /* Download Buttons */
